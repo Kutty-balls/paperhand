@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="overlay.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaperHand Overlay</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="app">
-      <h2>PaperHand</h2>
-      <div id="content">Loading UI...</div>
+    
+    <div id="content">
+      <input type="text" id="usernameInput" placeholder="Enter your username" />
+      <button id="loginBtn">Login</button>
     </div>
+    
+    <div id="paperhand-overlay">
+      <div id="balance-display"></div>
+      
+      <div id="trade-ui">
+        <input type="text" id="tokenInput" placeholder="Token (e.g., WIF)" />
+        <input type="number" id="amountInput" placeholder="Amount in SOL" />
+        <br>
+        <button id="buyBtn">Buy</button>
+        <button id="sellBtn">Sell</button>
+        <br>
+        
+      </div>
+    </div>
+
     <script src="overlay.js"></script>
   </body>
 </html>
