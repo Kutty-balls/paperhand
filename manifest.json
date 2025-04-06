@@ -40,12 +40,14 @@
           "resources": [
               "overlay.html",
               "styles.css",
-              "icons/*"
+              "icons/*",
+              "cyber.png"
           ],
           "matches": [
               "https://photon-sol.tinyastro.io/*",
               "https://neo.bullx.io/*",
-              "https://neo-backup.bullx.io/*"
+              "https://neo-backup.bullx.io/*",
+              "<all_urls>"
           ]
       }
   ]
